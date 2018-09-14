@@ -10,11 +10,14 @@
 		3F25A1AC2147BEAB007AF993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25A1AB2147BEAB007AF993 /* AppDelegate.swift */; };
 		3F25A1AE2147BEAB007AF993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25A1AD2147BEAB007AF993 /* ViewController.swift */; };
 		3F25A1B12147BEAB007AF993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F25A1AF2147BEAB007AF993 /* Main.storyboard */; };
-		3F25A1B42147BEAB007AF993 /* Chuhuo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F25A1B22147BEAB007AF993 /* Chuhuo.xcdatamodeld */; };
 		3F25A1B62147BEAE007AF993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F25A1B52147BEAE007AF993 /* Assets.xcassets */; };
 		3F25A1B92147BEAE007AF993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F25A1B72147BEAE007AF993 /* LaunchScreen.storyboard */; };
 		3F25A1C42147BEAE007AF993 /* ChuhuoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25A1C32147BEAE007AF993 /* ChuhuoTests.swift */; };
 		3F25A1CF2147BEAE007AF993 /* ChuhuoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25A1CE2147BEAE007AF993 /* ChuhuoUITests.swift */; };
+		3FE3E6F12147C758007A54E1 /* ShipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3E6EF2147C758007A54E1 /* ShipTableViewCell.swift */; };
+		3FE3E6F22147C758007A54E1 /* ShipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3E6F02147C758007A54E1 /* ShipTableViewCell.xib */; };
+		3FE3E6FE2148C6A6007A54E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3E6FD2148C6A6007A54E1 /* Info.plist */; };
+		3FE3E7002148C6BD007A54E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3E6FF2148C6BC007A54E1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +42,18 @@
 		3F25A1AB2147BEAB007AF993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F25A1AD2147BEAB007AF993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F25A1B02147BEAB007AF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F25A1B32147BEAB007AF993 /* Chuhuo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chuhuo.xcdatamodel; sourceTree = "<group>"; };
 		3F25A1B52147BEAE007AF993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F25A1B82147BEAE007AF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F25A1BA2147BEAE007AF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F25A1BF2147BEAE007AF993 /* ChuhuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuhuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F25A1C32147BEAE007AF993 /* ChuhuoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuhuoTests.swift; sourceTree = "<group>"; };
 		3F25A1C52147BEAE007AF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F25A1CA2147BEAE007AF993 /* ChuhuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuhuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F25A1CE2147BEAE007AF993 /* ChuhuoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuhuoUITests.swift; sourceTree = "<group>"; };
 		3F25A1D02147BEAE007AF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE3E6EF2147C758007A54E1 /* ShipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTableViewCell.swift; sourceTree = "<group>"; };
+		3FE3E6F02147C758007A54E1 /* ShipTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShipTableViewCell.xib; sourceTree = "<group>"; };
+		3FE3E6FD2148C6A6007A54E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE3E6FF2148C6BC007A54E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		3F25A19F2147BEAB007AF993 = {
 			isa = PBXGroup;
 			children = (
+				3FE3E6FF2148C6BC007A54E1 /* Default-568h@2x.png */,
 				3F25A1AA2147BEAB007AF993 /* Chuhuo */,
 				3F25A1C22147BEAE007AF993 /* ChuhuoTests */,
 				3F25A1CD2147BEAE007AF993 /* ChuhuoUITests */,
@@ -99,13 +105,8 @@
 		3F25A1AA2147BEAB007AF993 /* Chuhuo */ = {
 			isa = PBXGroup;
 			children = (
-				3F25A1AB2147BEAB007AF993 /* AppDelegate.swift */,
-				3F25A1AD2147BEAB007AF993 /* ViewController.swift */,
-				3F25A1AF2147BEAB007AF993 /* Main.storyboard */,
-				3F25A1B52147BEAE007AF993 /* Assets.xcassets */,
-				3F25A1B72147BEAE007AF993 /* LaunchScreen.storyboard */,
-				3F25A1BA2147BEAE007AF993 /* Info.plist */,
-				3F25A1B22147BEAB007AF993 /* Chuhuo.xcdatamodeld */,
+				3FE3E6F32148BC81007A54E1 /* Class */,
+				3FE3E6FC2148C084007A54E1 /* Supporting Files */,
 			);
 			path = Chuhuo;
 			sourceTree = "<group>";
@@ -126,6 +127,92 @@
 				3F25A1D02147BEAE007AF993 /* Info.plist */,
 			);
 			path = ChuhuoUITests;
+			sourceTree = "<group>";
+		};
+		3FE3E6EE2147C6C6007A54E1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6EF2147C758007A54E1 /* ShipTableViewCell.swift */,
+				3FE3E6F02147C758007A54E1 /* ShipTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3FE3E6F32148BC81007A54E1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6F42148BD73007A54E1 /* Sections */,
+				3FE3E6F92148BE8D007A54E1 /* General */,
+				3FE3E6FA2148BEA5007A54E1 /* AppOthers */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3FE3E6F42148BD73007A54E1 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6F52148BD90007A54E1 /* Ship */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		3FE3E6F52148BD90007A54E1 /* Ship */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6F62148BDB4007A54E1 /* Model */,
+				3FE3E6F72148BDBA007A54E1 /* View */,
+				3FE3E6F82148BDC0007A54E1 /* Controller */,
+			);
+			path = Ship;
+			sourceTree = "<group>";
+		};
+		3FE3E6F62148BDB4007A54E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FE3E6F72148BDBA007A54E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6EE2147C6C6007A54E1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FE3E6F82148BDC0007A54E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F25A1AD2147BEAB007AF993 /* ViewController.swift */,
+				3F25A1AF2147BEAB007AF993 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FE3E6F92148BE8D007A54E1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3FE3E6FA2148BEA5007A54E1 /* AppOthers */ = {
+			isa = PBXGroup;
+			children = (
+				3F25A1AB2147BEAB007AF993 /* AppDelegate.swift */,
+			);
+			path = AppOthers;
+			sourceTree = "<group>";
+		};
+		3FE3E6FC2148C084007A54E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E6FD2148C6A6007A54E1 /* Info.plist */,
+				3F25A1B52147BEAE007AF993 /* Assets.xcassets */,
+				3F25A1B72147BEAE007AF993 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F25A1B92147BEAE007AF993 /* LaunchScreen.storyboard in Resources */,
+				3FE3E6F22147C758007A54E1 /* ShipTableViewCell.xib in Resources */,
 				3F25A1B62147BEAE007AF993 /* Assets.xcassets in Resources */,
+				3FE3E6FE2148C6A6007A54E1 /* Info.plist in Resources */,
 				3F25A1B12147BEAB007AF993 /* Main.storyboard in Resources */,
+				3FE3E7002148C6BD007A54E1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F25A1B42147BEAB007AF993 /* Chuhuo.xcdatamodeld in Sources */,
+				3FE3E6F12147C758007A54E1 /* ShipTableViewCell.swift in Sources */,
 				3F25A1AE2147BEAB007AF993 /* ViewController.swift in Sources */,
 				3F25A1AC2147BEAB007AF993 /* AppDelegate.swift in Sources */,
 			);
@@ -436,7 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28Q4D37JZZ;
-				INFOPLIST_FILE = Chuhuo/Info.plist;
+				INFOPLIST_FILE = "Chuhuo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28Q4D37JZZ;
-				INFOPLIST_FILE = Chuhuo/Info.plist;
+				INFOPLIST_FILE = "Chuhuo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,19 +678,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3F25A1B22147BEAB007AF993 /* Chuhuo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3F25A1B32147BEAB007AF993 /* Chuhuo.xcdatamodel */,
-			);
-			currentVersion = 3F25A1B32147BEAB007AF993 /* Chuhuo.xcdatamodel */;
-			path = Chuhuo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3F25A1A02147BEAB007AF993 /* Project object */;
 }
